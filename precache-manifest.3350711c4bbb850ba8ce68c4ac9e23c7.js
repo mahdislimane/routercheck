@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "533294830539a1cfc715df8c7edc4acb",
+    "revision": "a4a1561bc5efa63595cfc6807271316b",
     "url": "/routercheck/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/routercheck/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "9e6117fef61fc8145976",
+    "revision": "8dc12b3611aabb1a706e",
     "url": "/routercheck/static/css/main.5c69579d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/routercheck/static/js/2.74564413.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e6117fef61fc8145976",
-    "url": "/routercheck/static/js/main.2e1a403b.chunk.js"
+    "revision": "8dc12b3611aabb1a706e",
+    "url": "/routercheck/static/js/main.be0b56c7.chunk.js"
   },
   {
     "revision": "d526a9d61c49c74eeb53",
