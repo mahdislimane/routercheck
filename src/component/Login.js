@@ -76,14 +76,13 @@ export default function Login(props) {
               className="inputForm col-12"
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <Button onClick={logVerif}>
-                <Link to="/login/sectionadmin">
+              <Link to="/login/sectionadmin">
+                <Button onClick={logVerif}>
                   <h6 style={{ textDecoration: "none", color: "white" }}>
-                    {" "}
-                    Login{" "}
+                    Login
                   </h6>
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             </div>
           </form>
         )}
