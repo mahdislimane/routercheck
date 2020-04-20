@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Route, Link, Redirect } from "react-router-dom";
+import React, { useState } from "react";
+import { Route, Link } from "react-router-dom";
 import AdminSection from "./AdminSection";
 import PrivateRoute from "./PrivateRoute";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,16 +15,16 @@ export default function Login(props) {
   });
   const [conVal, setconVal] = useState(false);
   const showHide = (e) => {
-    showpass == "password" ? setshowpass("text") : setshowpass("password");
+    showpass === "password" ? setshowpass("text") : setshowpass("password");
     e.preventDefault();
-    showhide == "show" ? setshowhide("hide") : setshowhide("show");
+    showhide === "show" ? setshowhide("hide") : setshowhide("show");
   };
   const handleChange = (e) => {
     setInformation({ ...information, [e.target.name]: e.target.value });
   };
   const logVerif = () => {
-    information.name == "admin"
-      ? information.password == "admin"
+    information.name === "admin"
+      ? information.password === "admin"
         ? setconVal(true)
         : alert("use 'admin' as a name and password")
       : alert("use 'admin' as a name and password");
