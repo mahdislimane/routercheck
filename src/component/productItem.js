@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductItem(props) {
   let productItem = props.productData.filter(
-    (product) => product.id == props.match.params.productId
+    (product) => product.id === props.match.params.productId
   )[0];
   return (
     <div>
