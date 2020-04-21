@@ -10,12 +10,12 @@ import Login from "./component/Login";
 export default function App(props) {
   return (
     <div>
-      <Route path="/" component={NavBar} />
+      <Route path="routercheck/" component={NavBar} />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/category" component={Category} />
-        <Route path="/products" component={Products} />
-        <Route path="/login" component={Login} />
+        <Route exact path="routercheck/" component={Home} />
+        <Route path="routercheck/category" component={Category} />
+        <Route path="routercheck/products" component={Products} />
+        <Route path="routercheck/login" component={Login} />
       </Switch>
     </div>
   );
