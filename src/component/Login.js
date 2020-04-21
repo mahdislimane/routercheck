@@ -36,16 +36,16 @@ export default function Login(props) {
     >
       <Route
         exact
-        path="/login"
+        path="routercheck/login"
         render={() => (
-          <Link to="/login/log">
+          <Link to="routercheck/login/log">
             <Button>Login</Button>
           </Link>
         )}
       />
       <Route
         exact
-        path="/login/log"
+        path="routercheck/login/log"
         render={() => (
           <form className="container-fluid row" style={{ width: "500px" }}>
             <div className="inputForm col-4 "> Name: </div>
@@ -76,7 +76,7 @@ export default function Login(props) {
               className="inputForm col-12"
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <Link to="/login/sectionadmin">
+              <Link to="routercheck/login/sectionadmin">
                 <Button onClick={logVerif}>
                   <h6 style={{ textDecoration: "none", color: "white" }}>
                     Login
@@ -89,7 +89,7 @@ export default function Login(props) {
       />
       <div>
         <PrivateRoute
-          path="/login/sectionadmin"
+          path="routercheck/login/sectionadmin"
           connected={conVal}
           component={AdminSection}
         />
