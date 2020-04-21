@@ -7,16 +7,16 @@ export default function NavBar(props) {
     <div>
       <Navbar bg="primary" variant="dark">
         <Nav className="mr-auto">
-          <Link to="/">
+          <Link to="routercheck/">
             <Button>Home</Button>
           </Link>
-          <Link to="/category">
+          <Link to="routercheck/category">
             <Button>Category</Button>
           </Link>
-          <Link to="/products">
+          <Link to="routercheck/products">
             <Button>Products</Button>
           </Link>
-          <Link to="/login">
+          <Link to="routercheck/login">
             <Button>Login</Button>
           </Link>
         </Nav>
